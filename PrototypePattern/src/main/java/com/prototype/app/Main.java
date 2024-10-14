@@ -10,7 +10,7 @@ public class Main {
 
         NetworkConnection connection2 = (NetworkConnection) connection1.clone();
         System.out.println(connection2);
-        
+
         NetworkConnection connection3 = (NetworkConnection) connection1.clone();
         System.out.println(connection3);
     }
